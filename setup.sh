@@ -116,7 +116,7 @@ EOF
 fluxbox_menu="$(cat \
 << 'EOF'
 [begin] (  Application Menu  )
-    [exec] (File Manager) { nautilus ~ } <>
+    [exec] (File Manager) { nautilus /workspaces/myDesktop } <>
     [exec] (Text Editor) { mousepad } <>
     [exec] (Terminal) { tilix -w ~ -e $(readlink -f /proc/$$/exe) -il } <>
     [exec] (Web Browser) { x-www-browser --disable-dev-shm-usage } <>

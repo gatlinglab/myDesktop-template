@@ -1,1 +1,1 @@
-/usr/lib/firefox/firefox --profile /workspaces/myDesktop/userdata &
+~/.cache/ms-playwright/firefox-1449/firefox/firefox --profile /workspaces/myDesktop/userdata &

@@ -1,11 +1,9 @@
 {
     "name": "myDesktop",
-    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
 
     // Features to add to the dev container. More info: https://containers.dev/implementors/features.
     "features": {
-        "ghcr.io/devcontainers/features/github-cli:1": {},
-        "ghcr.io/devcontainers-contrib/features/pre-commit:1": {},
         "ghcr.io/devcontainers/features/desktop-lite": {
             "password": "vscode",
             "webPort": "6080",
@@ -23,9 +21,6 @@
             "label": "Web VNC"
         }
     },
-
-    // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "pre-commit install; pre-commit install --hook-type commit-msg"
 
     // Configure tool-specific properties.
     // "customizations": {},

@@ -16,3 +16,7 @@ userdata/.parentlock
 userdata/addon*
 userdata/safebrowsing
 userdata/thumbnails
+userdata/AlternateServices.bin
+userdata/broadcast-listeners.json
+userdata/favicons*
+userdata/formhistory.sqlite

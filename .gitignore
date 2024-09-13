@@ -4,6 +4,15 @@ download
 userdata/bookmarkbackups
 userdata/cache2
 userdata/datareporting
-userdata/extension-store
-userdata/startupcache
+userdata/startupCache
+userdata/sessionstore-backups
 userdata/storage/default/*/cache/morgue
+userdata/extension*
+userdata/times.json
+userdata/webapps*
+userdata/xulstore.json
+userdata/lock
+userdata/.parentlock
+userdata/addon*
+userdata/safebrowsing
+userdata/thumbnails
